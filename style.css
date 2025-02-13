@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* A standard sans-serif font */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+}
+
+#word-display, #attempts-display, #result, #entered-letter {
+    font-family: 'Arial', sans-serif; /* Ensure all text is using a normal font */
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+input {
+    font-family: 'Arial', sans-serif; /* For the input box */
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+button {
+    font-family: 'Arial', sans-serif; /* Ensure buttons use a normal font */
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
